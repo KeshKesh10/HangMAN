@@ -1,7 +1,3 @@
-# Hangman Game (React + Vite)
-
-A Hangman game built with a React component-based design.
-
 ## Features
 
 - 6 Hangman image states for a 5-life game (`hangman-0.svg` through `hangman-5.svg`)
@@ -11,13 +7,6 @@ A Hangman game built with a React component-based design.
 - Word rendering using reusable `LetterBox` components
 - New Game button
 - Winner and loser result screen after the game
-- Multi-component architecture
-
-## Screen Flow
-
-1. **Start Screen** - Press **Start Game** to begin.
-2. **Game Screen** - See Hangman status, guess letters, and track used letters in a separate box.
-3. **Result Screen** - Shows **Winner** or **Loser**, then **Play Again** starts a new round.
 
 ## Component Structure
 
@@ -64,9 +53,4 @@ Open `http://localhost:8080`.
 - You have 5 lives.
 - Every incorrect guess advances the Hangman image.
 - Win by revealing all letters before lives reach 0.
-- Lose when the final Hangman state is reached.
-
-## Notes
-
-- Images are stored in `public/hangman/`.
-- The game uses uppercase letters for straightforward keyboard matching.
+- Lose when the final Hangman state is reached

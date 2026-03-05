@@ -16,6 +16,10 @@ const WORDS = [
   'PROPS',
   'DOCKER',
   'VITE',
+  'KESH',
+  'FULLSTACK',
+  'MOREHOUSE',
+  'SOFTWAREENGINEER',
 ]
 
 function getRandomWord(previousWord) {
